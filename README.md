@@ -1,4 +1,8 @@
-# Arduino pluggable monitor for serial ports
+# qNimble port of arduion pluggable monitor for qnimble devices
+
+Supports protocol=qnimble
+
+## Arduino pluggable monitor for serial ports
 
 The `serial-monitor` tool is a command line program that interacts via stdio. It accepts commands as plain ASCII strings terminated with LF `\n` and sends response as JSON.
 

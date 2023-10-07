@@ -56,7 +56,7 @@ type SerialMonitor struct {
 func NewSerialMonitor() *SerialMonitor {
 	return &SerialMonitor{
 		serialSettings: &monitor.PortDescriptor{
-			Protocol: "serial",
+			Protocol: "qnimble",
 			ConfigurationParameter: map[string]*monitor.PortParameterDescriptor{
 				"baudrate": {
 					Label: "Baudrate",
